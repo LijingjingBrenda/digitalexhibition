@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "dev": "npx live-server"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/personal-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/personal-website/issues"
+  },
+  "homepage": "https://github.com/yourusername/personal-website#readme"
+}
