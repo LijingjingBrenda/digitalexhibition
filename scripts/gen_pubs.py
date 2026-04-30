@@ -262,6 +262,7 @@ def render_pub_mini(p):
                             <div class="pub-mini-text">
                                 <span class="pub-num">{p["id"]}</span>
                                 <h4 class="pub-mini-title">{p["title"]}</h4>
+                                <span class="pub-mini-authors">{p["authors"]}</span>
                                 <span class="pub-mini-venue">{p["venue"]}</span>
                             </div>
                             <span class="pub-mini-arrow" aria-hidden="true">→</span>

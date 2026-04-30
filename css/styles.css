@@ -523,12 +523,26 @@ p:last-child {
     font-weight: 500;
     color: var(--accent-deep);
     line-height: 1.35;
-    margin: 0 0 0.3rem 0;
+    margin: 0 0 0.35rem 0;
     letter-spacing: -0.005em;
 }
 
 .pub-mini:hover .pub-mini-title {
     color: var(--accent);
+}
+
+.pub-mini-authors {
+    font-family: var(--body);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    margin-bottom: 0.15rem;
+}
+
+.pub-mini-authors strong {
+    color: var(--accent-deep);
+    font-weight: 600;
 }
 
 .pub-mini-venue {
