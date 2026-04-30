@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website portfolio">
-    <title>My Personal Website</title>
+    <meta name="description" content="Jingjing Li (李晶晶) — Assistant Professor at Digital Nature Group, University of Tsukuba. Research in Human-Computer Interaction, Digital Exhibition, and Computational Creativity.">
+    <title>Jingjing Li (李晶晶)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Shippori+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">My Portfolio</div>
+            <div class="logo">Jingjing Li</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#publication">Publication</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#activities">Activities</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,79 +26,389 @@
 
     <main>
         <section id="hero">
-            <div class="hero-content">
-                <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
-                <p class="subtitle">Web Developer | Designer | Creator</p>
-                <a href="#contact" class="cta-button">Get In Touch</a>
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <p class="kicker">University of Tsukuba — Digital Nature</p>
+                    <h1>Jingjing<br>Li<span class="name-cn">李 晶 晶</span></h1>
+                    <p class="affiliation">Project Assistant Professor (特任助教)<br>
+                        Digital Nature Group, Faculty of Library, Information and Media Science<br>
+                        University of Tsukuba</p>
+                    <p class="tagline">Human-Computer Interaction · Digital Exhibition · Computational Creativity</p>
+                    <p class="quick-links">
+                        <a href="mailto:li@digitalnature.slis.tsukuba.ac.jp">Email</a> ·
+                        <a href="https://scholar.google.com/citations?user=HX-bNRAAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
+                        <a href="https://www.linkedin.com/in/jingjing-li-tsukuba" target="_blank" rel="noopener">LinkedIn</a>
+                    </p>
+                </div>
+                <div class="hero-photo">
+                    <img src="images/profile.jpg?v=4" alt="Jingjing Li">
+                </div>
             </div>
         </section>
 
         <section id="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>I'm a passionate developer who loves creating beautiful and functional websites. 
-                   With a strong foundation in modern web technologies, I enjoy turning ideas into reality.</p>
+            <div class="container narrow">
+                <h2>About</h2>
+                <p>I am an Assistant Professor at the <a href="https://digitalnature.slis.tsukuba.ac.jp/" target="_blank" rel="noopener">Digital Nature Group</a>, Graduate School of Library, Information and Media Studies, University of Tsukuba. My research lies at the intersection of human-computer interaction, digital exhibition, and computational creativity, with a particular interest in how emerging media and AI reshape the way people generate, encounter, and interpret ideas.</p>
+                <p>I work on tools and systems that support the early, exploratory stages of creative thought, on physical and digital materials that mediate between human bodies and information environments, and on speculative framings that connect cultural imagination to technological practice.</p>
             </div>
         </section>
 
-        <section id="projects">
-            <div class="container">
-                <h2>My Projects</h2>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <h3>Project One</h3>
-                        <p>Description of your first project and the technologies used.</p>
-                        <a href="#" class="project-link">View Project →</a>
-                    </div>
-                    <div class="project-card">
-                        <h3>Project Two</h3>
-                        <p>Description of your second project and the technologies used.</p>
-                        <a href="#" class="project-link">View Project →</a>
-                    </div>
-                    <div class="project-card">
-                        <h3>Project Three</h3>
-                        <p>Description of your third project and the technologies used.</p>
-                        <a href="#" class="project-link">View Project →</a>
-                    </div>
+        <section id="research">
+            <div class="container narrow">
+                <h2>Research</h2>
+                <div class="research-area">
+                    <h3>Digital Exhibition</h3>
+                    <p>Designing and evaluating exhibition formats — for museums, cultural heritage, and online platforms — that bring immersive technologies, computational artifacts, and generative media into public-facing settings.</p>
+                </div>
+                <div class="research-area">
+                    <h3>User Evaluation of Digital Media</h3>
+                    <p>Studying engagement with digital experiences through psychophysiological signals (e.g., EEG), self-assessment, and bibliometric mapping of how immersive and AI-driven media reshape user behavior.</p>
+                </div>
+                <div class="research-area">
+                    <h3>Communication Design</h3>
+                    <p>Investigating interfaces and computational tools that mediate communication between people, machines, and materials, including generative AI for user studies, mixed reality for embodied practice, and metamaterial-based interaction.</p>
                 </div>
             </div>
         </section>
 
-        <section id="publication">
-            <div class="container">
-                <h2>Publication</h2>
-                <div class="skills-grid">
-                    <div class="skill-item">HTML5</div>
-                    <div class="skill-item">CSS3</div>
-                    <div class="skill-item">JavaScript</div>
-                    <div class="skill-item">React</div>
-                    <div class="skill-item">Node.js</div>
-                    <div class="skill-item">Git</div>
-                </div>
+        <section id="publications">
+            <div class="container narrow">
+                <h2>Publications</h2>
+                <p class="pub-note">Source: <a href="https://trios.tsukuba.ac.jp/researcher/0000004939" target="_blank" rel="noopener">University of Tsukuba TRIOS</a> · <a href="https://scholar.google.com/citations?user=HX-bNRAAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · ORCID <a href="https://orcid.org/0000-0002-6524-3105" target="_blank" rel="noopener">0000-0002-6524-3105</a></p>
+
+                <h3 class="pub-cat">Journal Articles</h3>
+                <ul class="pub-list">
+                    <li class="pub-item">
+                        <a href="pub/metamaterial-robotics.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/metamaterial-robotics.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J01</span>
+                                <h4 class="pub-mini-title">Metamaterial robotics</h4>
+                                <span class="pub-mini-venue"><em>Science Robotics</em>, 10(108), 2025</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/kendo-mr.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/kendo-mr.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J02</span>
+                                <h4 class="pub-mini-title">Discipline Together with the Self in Kendo: Exploring "Qi" through Mixed Reality and Autoethnography</h4>
+                                <span class="pub-mini-venue"><em>Proceedings of the ACM on Computer Graphics and Interactive Techniques</em>, 8(3), 2025 (SIGGRAPH 2025)</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/educational-metaverse.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/educational-metaverse.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J03</span>
+                                <h4 class="pub-mini-title">Mapping the educational metaverse: a bibliometric analysis of trends, influences and future directions</h4>
+                                <span class="pub-mini-venue"><em>Kybernetes</em>, 2025</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/heritage-immersive.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/heritage-immersive.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J04</span>
+                                <h4 class="pub-mini-title">A bibliometric insight into immersive technologies for cultural heritage preservation</h4>
+                                <span class="pub-mini-venue"><em>npj Heritage Science</em>, 13(1), 2025</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/air-taxi.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/air-taxi.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J05</span>
+                                <h4 class="pub-mini-title">Generative artificial intelligence-guided user studies: an application for air taxi services</h4>
+                                <span class="pub-mini-venue"><em>Behaviour &amp; Information Technology</em>, 2025</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/digital-museum-review.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/digital-museum-review.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J06</span>
+                                <h4 class="pub-mini-title">A systematic review of digital transformation technologies in museum exhibition</h4>
+                                <span class="pub-mini-venue"><em>Computers in Human Behavior</em>, 161, 2024</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/metaverse-chronicles.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/metaverse-chronicles.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J07</span>
+                                <h4 class="pub-mini-title">Metaverse chronicles: a bibliometric analysis of its evolving landscape</h4>
+                                <span class="pub-mini-venue"><em>International Journal of Human–Computer Interaction</em>, 2024</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/text-microstructure.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/text-microstructure.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J08</span>
+                                <h4 class="pub-mini-title">Text-to-Microstructure Generation Using Generative Deep Learning</h4>
+                                <span class="pub-mini-venue"><em>Small</em>, 2024</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/digital-tourism.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/digital-tourism.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J09</span>
+                                <h4 class="pub-mini-title">Unveiling trends in digital tourism research: A bibliometric analysis of co-citation and co-word analysis</h4>
+                                <span class="pub-mini-venue"><em>Environmental and Sustainability Indicators</em>, 2023</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/museum-vr-bibliometric.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/museum-vr-bibliometric.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J10</span>
+                                <h4 class="pub-mini-title">A bibliometric analysis of immersive technology in museum exhibitions: exploring user experience</h4>
+                                <span class="pub-mini-venue"><em>Frontiers in Virtual Reality</em>, 2023</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/moire-eeg.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/moire-eeg.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">J11</span>
+                                <h4 class="pub-mini-title">Psychological distance and user engagement in online exhibitions: Visualization of moiré patterns based on electroencephalography signals</h4>
+                                <span class="pub-mini-venue"><em>Frontiers in Psychology</em>, 2022</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <h3 class="pub-cat">International Conference Papers</h3>
+                <ul class="pub-list">
+                    <li class="pub-item">
+                        <a href="pub/onomacompass.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/onomacompass.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">C01</span>
+                                <h4 class="pub-mini-title">OnomaCompass: A Texture Exploration Interface that Shuttles between Words and Images</h4>
+                                <span class="pub-mini-venue"><em>Augmented Humans Conference (AHs)</em>, 2026</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/moire-hcii.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/moire-hcii.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">C02</span>
+                                <h4 class="pub-mini-title">Visualizing the Electroencephalography Signal Discrepancy When Maintaining Social Distancing: EEG-Based Interactive Moiré Patterns</h4>
+                                <span class="pub-mini-venue"><em>HCI International 2022 (LNCS 13322)</em>, pp. 185–197, 2022</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/polkadot.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/polkadot.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">C03</span>
+                                <h4 class="pub-mini-title">Transformation of Plants into Polka Dot Arts: Kusama Yayoi as an Inspiration for Deep Learning</h4>
+                                <span class="pub-mini-venue"><em>HCI International 2022</em>, pp. 270–280, 2022</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/google-arts.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/google-arts.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">C04</span>
+                                <h4 class="pub-mini-title">Electroencephalography and Self-assessment Evaluation of Engagement with Online Exhibitions: Case Study of Google Arts and Culture</h4>
+                                <span class="pub-mini-venue"><em>HCI International 2022</em>, pp. 316–331, 2022</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <h3 class="pub-cat">Posters & Presentations</h3>
+                <ul class="pub-list">
+                    <li class="pub-item">
+                        <a href="pub/life-is-mystery.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/life-is-mystery.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">P01</span>
+                                <h4 class="pub-mini-title">Life is Mystery: Reweaving Ordinary Spaces into Fluid Ecologies of Enchantment</h4>
+                                <span class="pub-mini-venue"><em>CHI Extended Abstracts</em>, 2026</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/gvs-toolkit.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/gvs-toolkit.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">P02</span>
+                                <h4 class="pub-mini-title">Exploring Daily Applications of Wearable Galvanic Vestibular Stimulation via a Self-Customizable Toolkit</h4>
+                                <span class="pub-mini-venue"><em>Augmented Humans Conference (AHs)</em>, 2026</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/intl-students-ai.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/intl-students-ai.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">P03</span>
+                                <h4 class="pub-mini-title">Understanding How International Students Co-develop with AI when Facing Daily Challenges in Japan</h4>
+                                <span class="pub-mini-venue"><em>Augmented Humans Conference (AHs)</em>, 2026</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                    <li class="pub-item">
+                        <a href="pub/women-in-cg.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/women-in-cg.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">P04</span>
+                                <h4 class="pub-mini-title">Birds of a Feather: Women in CG</h4>
+                                <span class="pub-mini-venue"><em>SIGGRAPH Asia 2024</em></span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <h3 class="pub-cat">Preprints</h3>
+                <ul class="pub-list">
+                    <li class="pub-item">
+                        <a href="pub/digital-human-debates.html" class="pub-mini">
+                            <div class="pub-mini-thumb"><img src="images/pubs/digital-human-debates.jpg" alt="" onerror="this.style.display='none'"></div>
+                            <div class="pub-mini-text">
+                                <span class="pub-num">X01</span>
+                                <h4 class="pub-mini-title">Knowing Ourselves Through Others: Reflecting with AI in Digital Human Debates</h4>
+                                <span class="pub-mini-venue"><em>arXiv</em>:2511.13046, 2025</span>
+                            </div>
+                            <span class="pub-mini-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section id="activities">
+            <div class="container narrow">
+                <h2>Activities</h2>
+                <p class="pub-note">Travels, talks, and reflections on academic encounters.</p>
+
+                <ol class="timeline">
+                    <li class="tl-year">2026</li>
+
+                    <li class="tl-item">
+                        <details>
+                            <summary>
+                                <span class="tl-date">Apr 2026</span>
+                                <span class="tl-title">Visit to [University Name]</span>
+                                <span class="tl-loc">[City, Country]</span>
+                                <span class="tl-arrow" aria-hidden="true"></span>
+                            </summary>
+                            <div class="tl-body">
+                                <div class="tl-gallery">
+                                    <img src="images/activities/sample-1.jpg" alt="" onerror="this.parentElement.style.display='none'">
+                                </div>
+                                <div class="tl-text">
+                                    <p>[Reflection paragraph: who you met, what you discussed, what surprised you, what stayed with you afterwards. 2–4 sentences works well; longer is fine if the encounter warrants it.]</p>
+                                </div>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li class="tl-item">
+                        <details>
+                            <summary>
+                                <span class="tl-date">Mar 2026</span>
+                                <span class="tl-title">Talk at [Venue / Workshop]</span>
+                                <span class="tl-loc">[City, Country]</span>
+                                <span class="tl-arrow" aria-hidden="true"></span>
+                            </summary>
+                            <div class="tl-body">
+                                <div class="tl-gallery">
+                                    <img src="images/activities/sample-2.jpg" alt="" onerror="this.parentElement.style.display='none'">
+                                </div>
+                                <div class="tl-text">
+                                    <p>[Reflection on the talk and audience response.]</p>
+                                </div>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li class="tl-year">2025</li>
+
+                    <li class="tl-item">
+                        <details>
+                            <summary>
+                                <span class="tl-date">Nov 2025</span>
+                                <span class="tl-title">[Event Name]</span>
+                                <span class="tl-loc">[Location]</span>
+                                <span class="tl-arrow" aria-hidden="true"></span>
+                            </summary>
+                            <div class="tl-body">
+                                <div class="tl-text">
+                                    <p>[Short reflection.]</p>
+                                </div>
+                            </div>
+                        </details>
+                    </li>
+                </ol>
             </div>
         </section>
 
         <section id="contact">
-            <div class="container">
-                <h2>Get In Touch</h2>
-                <p>I'd love to hear from you! Feel free to reach out.</p>
-                <form class="contact-form">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
+            <div class="container narrow">
+                <h2>Contact</h2>
+                <p>I welcome inquiries from prospective collaborators, students, curators, and journalists.</p>
+                <dl class="contact-list">
+                    <dt>University</dt>
+                    <dd>
+                        <a href="mailto:li@digitalnature.slis.tsukuba.ac.jp">li@digitalnature.slis.tsukuba.ac.jp</a><br>
+                        <a href="mailto:jjli@slis.tsukuba.ac.jp">jjli@slis.tsukuba.ac.jp</a>
+                    </dd>
+                    <dt>Personal</dt>
+                    <dd><a href="mailto:jingjinglibrenda@gmail.com">jingjinglibrenda@gmail.com</a></dd>
+                    <dt>Profiles</dt>
+                    <dd>
+                        <a href="https://scholar.google.com/citations?user=HX-bNRAAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
+                        <a href="https://orcid.org/0000-0002-6524-3105" target="_blank" rel="noopener">ORCID</a> ·
+                        <a href="https://trios.tsukuba.ac.jp/researcher/0000004939" target="_blank" rel="noopener">TRIOS</a> ·
+                        <a href="https://www.linkedin.com/in/jingjing-li-tsukuba" target="_blank" rel="noopener">LinkedIn</a>
+                    </dd>
+                </dl>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-        <div class="social-links">
-            <a href="#" aria-label="GitHub">GitHub</a>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" aria-label="Twitter">Twitter</a>
-        </div>
+        <p>&copy; 2026 Jingjing Li. Last updated April 2026.</p>
     </footer>
 
     <script src="js/script.js"></script>
