@@ -133,9 +133,9 @@ PUBS = [
 
     dict(id="P03", cat="Poster", title="Understanding How International Students Co-develop with AI when Facing Daily Challenges in Japan",
          slug="intl-students-ai", img="intl-students-ai.jpg",
-         authors="[Author list — to be confirmed], including <strong>Jingjing Li</strong>",
+         authors="ChunPi Hsieh, <strong>Jingjing Li</strong>, Ichiro Matsuda, Tatsuki Fushimi, Yoichi Ochiai",
          venue="<em>Augmented Humans Conference (AHs)</em>, 2026",
-         abstract="<em>Poster — abstract pending. Please refer to the ACM DL link for the full text.</em>",
+         abstract="Cultural adaptation challenges pose a significant social issue for international students, affecting academic engagement and well-being. Although AI offers on-demand, multilingual, and conversational support, prior research has largely focused on educational or workplace contexts, leaving its use during study abroad underexplored. To lay an empirical foundation for future AI system design, we examine users' needs and how they co-solve challenges with AI during cultural adaptation. Based on interviews with 20 international students, garbage classification and hair cut were identified as representative challenges. We then conducted a user study (N = 15, international students within six months of arrival), analyzing 154 interaction instances across the two tasks. Task-dependent differences emerged: garbage classification was dominated by rule clarification and information seeking (73.1%), whereas translation (49.2%) and expression support were more prominent in the hair cut. Participants also engaged in multi-turn interactions, treating AI as cognitive collaborators while remaining attentive to limitations related to local rules and personal context. These findings provide empirical evidence of AI use during early-stage cultural adaptation and inform the design of future AI-based support systems, providing a foundation for examining how international students' adaptation practices may co-evolve with AI over time.",
          cta_label="View on ACM", cta_url="https://dl.acm.org/doi/10.1145/3795011.3797370"),
 
     dict(id="P04", cat="Birds of a Feather", title="Birds of a Feather: Women in CG",
