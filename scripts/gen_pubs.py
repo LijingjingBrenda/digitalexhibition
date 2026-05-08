@@ -135,8 +135,8 @@ PUBS = [
          slug="intl-students-ai", img="intl-students-ai.jpg",
          authors="[Author list — to be confirmed], including <strong>Jingjing Li</strong>",
          venue="<em>Augmented Humans Conference (AHs)</em>, 2026",
-         abstract="<em>Poster — abstract not yet indexed in open metadata sources. Please contact the author or refer to the AHs 2026 proceedings for the full text.</em>",
-         cta_label="AHs 2026", cta_url="https://www.augmented-humans.org/"),
+         abstract="<em>Poster — abstract pending. Please refer to the ACM DL link for the full text.</em>",
+         cta_label="View on ACM", cta_url="https://dl.acm.org/doi/10.1145/3795011.3797370"),
 
     dict(id="P04", cat="Birds of a Feather", title="Birds of a Feather: Women in CG",
          slug="women-in-cg", img="women-in-cg.jpg",
